@@ -134,9 +134,9 @@ function App() {
           <div className='w-[100vw] mt-8   '>
             <div className='md:flex md:justify-center w-full md:-space-x-10 items-center'>
               <div className='App  md:w-[50%] text-right'>
-                <h1 className='text-center text-sm md:text-[20px]' style={{ fontFamily: 'cursive', color: 'white', margin: 'auto 0', fontWeight: 'bold' }}>
+                <h1 className='text-center text-[24px] md:text-[20px]' style={{ fontFamily: 'cursive', color: 'white', margin: 'auto 0', fontWeight: 'bold' }}>
                   Hi I Am Shubhadeep Mahato A{' '}
-                  <div className='md:p-5 text-[13px] md:text-[20px] text-yellow-500 ' style={{ fontWeight: '' }}>
+                  <div className='md:p-5 text-[25px] md:text-[20px] text-yellow-500 ' style={{ fontWeight: 'bold' }}>
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
                       words={['FULL STACK(MERN)', 'MOBILE APPLICATION(React Native)',]}
@@ -272,7 +272,7 @@ function App() {
         <div className='bg-black bg-opacity-50 h-full w-full'>
           {/* --------Web Projects------- */}
           <div className='md:h-[38rem]'>
-            <h2 style={{ fontFamily: 'monospace' }} className='font-bold shadow-pink-500 shadow-md text-center text-slate-100 text-[1.7rem]'>Web Development Projects</h2>
+            <h2 style={{ fontFamily: 'monospace' }} className='font-bold shadow-pink-500 shadow-md text-center text-slate-100 text-[1.4rem] md:text-[1.7rem]'>Web Development Projects</h2>
             <div className='md:grid md:grid-cols-4 md:flex-wrap overflow-y-scroll  h-[40rem] md:h-[33rem] pt-2   mt-3 space-x-3 md:space-x-6 scrollbar-hide w-full items-center justify-evenly'>
               {webApps.map((item, index) => {
                 return <ProjectCard key={index} data={item} />
@@ -283,7 +283,7 @@ function App() {
 
           {/* -------App Projects------ */}
           <div className='h-[25rem]'>
-            <h2 style={{ fontFamily: 'monospace' }} className='font-bold shadow-pink-500 shadow-md text-center text-[1.7rem] text-slate-100'>Mobile App Projects</h2>
+            <h2 style={{ fontFamily: 'monospace' }} className='font-bold shadow-pink-500 shadow-md text-center text-[1.4rem] md:text-[1.7rem] text-slate-100'>Mobile App Projects</h2>
             <div className='md:grid md:grid-cols-4 md:flex-wrap overflow-y-scroll  h-[40rem] md:h-[33rem] pt-2   mt-3 space-x-3 md:space-x-6 scrollbar-hide w-full items-center justify-evenly'>
               {mobileApps.map((item, index) => {
                 return <ProjectCard data={item} />
