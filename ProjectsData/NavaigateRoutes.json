@@ -1,0 +1,19 @@
+[
+    {
+        "name":"Skills",
+        "path":"#skills"
+    },
+    {
+        "name":"Specialization",
+        "path":"#specializations"
+    },
+    {
+        "name":"Education",
+        "path":"#education"
+    },
+
+    {
+        "name":"Experiance",
+        "path":"#experiance"
+    }
+]

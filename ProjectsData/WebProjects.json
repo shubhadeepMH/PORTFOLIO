@@ -1,0 +1,46 @@
+[
+    {
+      "name": "E-commerce App",
+      "shortDescription": "An E commerce  Platform",
+      "technologies": ["React", "Redux", "Firebase"],
+      "github": "https://github.com/shubhadeepMH/E_commerce_App",
+      "link": "https://e-commerce-app-azure-two.vercel.app/"
+    },
+    {
+      "name": "Social Media Application",
+      "shortDescription": "An end to end social media App ",
+      "technologies": ["Reactjs", "Redux", "Firebase"],
+      "github": "https://github.com/shubhadeepMH/social-2.0",
+      "link": "https://social-2-0.vercel.app/"
+    },
+    {
+      "name": "Quick Qure",
+      "shortDescription": "A MERN stack App for book appoointments with Doctors",
+      "technologies": ["React.js", "Node.js","Express.js","MongoDB"],
+      "github": "https://github.com/shubhadeepMH/Quick-Qure",
+      "link": "https://projectc.com"
+    },
+    {
+      "name": "Audio Metric Simulator",
+      "shortDescription": "An App for determine hearing condition of Patients",
+      "technologies": ["React js", "React chart"],
+      "github": "https://github.com/shubhadeepMH/Ihear",
+      "link": "https://ihear.vercel.app/"
+    },
+    {
+      "name": "Sellers Deashboard",
+      "shortDescription": "Dashboard For Online Product Sellers ",
+      "technologies": ["React js", "Node.js","Express.js","MongoDB"],
+      "github": "https://github.com/shubhadeepMH/Seller-Dashboard-",
+      "link": "https://projecte.com"
+    },
+    {
+      "name": "Ankan",
+      "shortDescription": "An Photo Editing Application",
+      "technologies": ["React js", "CSS filter"],
+      "github": "https://github.com/shubhadeepMH/ANKAN",
+      "link": "https://ankan.netlify.app/"
+    }
+    
+  ]
+  

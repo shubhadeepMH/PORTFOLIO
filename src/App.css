@@ -1,0 +1,7 @@
+.gradient-border {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to right, #f06, #9f6) 1;
+  border-image-slice: 1;
+  border-radius: 100%;
+  
+}

@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Food Delivery App",
+      "shortDescription": "A Prototype Of Food Delivery Mobile Applications",
+      "technologies": ["React Native", "Redux","Android","Ios"],
+      "github": "https://github.com/shubhadeepMH/E_commerce_App",
+      "link": "https://e-commerce-app-azure-two.vercel.app/"
+    },
+    {
+      "name": "Chit Chat",
+      "shortDescription": "A Text Chat Mobile Application ",
+      "technologies": ["React Native", "Redux", "Firebase","Android","Ios"],
+      "github": "https://github.com/shubhadeepMH/social-2.0",
+      "link": "https://social-2-0.vercel.app/"
+    },
+    {
+      "name": "Media Player",
+      "shortDescription": "An Music player Mobile Application",
+      "technologies": ["React Native", "Redux","Ios","Android"],
+      "github": "https://github.com/shubhadeepMH/Quick-Qure",
+      "link": "https://projectc.com"
+    },
+    {
+      "name": "Password Generator",
+      "shortDescription": "An Mobile Application For Generate Password Using Different Conditions",
+      "technologies": ["React Native", "Ios","Android"],
+      "github": "https://github.com/shubhadeepMH/Ihear",
+      "link": "https://ihear.vercel.app/"
+    },
+    {
+      "name": "Currency converter",
+      "shortDescription": "An Currency Converter Application For Different Countries ",
+      "technologies": ["React Native", "Android","Ios"],
+      "github": "https://github.com/shubhadeepMH/Seller-Dashboard-",
+      "link": "https://projecte.com"
+    }
+    
+      
+  ]
+  
