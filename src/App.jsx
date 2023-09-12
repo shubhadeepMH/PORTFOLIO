@@ -10,6 +10,7 @@ import { BsGithub } from 'react-icons/bs';
 import { ImInfinite, ImLinkedin } from 'react-icons/im';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { BsFillChatDotsFill } from 'react-icons/bs';
 import { RxCross1 } from 'react-icons/rx';
 import Lottie from "lottie-react";
 import myImg from './assets/shubhadeep.png'
@@ -33,6 +34,7 @@ import video from './assets/videoWeb.mp4'
 import webApps from '../ProjectsData/WebProjects.json'
 import mobileApps from "../ProjectsData/MobileAppProjects.json"
 import routeData from '../ProjectsData/NavaigateRoutes.json'
+import AlertCard from './components/AlertCard'
 import 'aos/dist/aos.css';
 import { useNavigate } from 'react-router-dom'
 
@@ -43,8 +45,25 @@ import githubLogo from './assets/github.png'
 import ProjectCard from './components/ProjectCard'
 
 
+
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isAlertPrompted, setIsAlertPrompted] = useState(false);
+  const addresses = [
+    {
+      name: 'John Doe',
+      street: '123 Main Street',
+      city: 'New York',
+      state: 'NY',
+      zip: '10001',
+      phone: '(123) 456-7890',
+      email: 'john@example.com',
+    },
+    // Add more addresses as needed
+  ];
+  let handleContactAlert=()=>{
+    setIsAlertPrompted(!isAlertPrompted)
+  }
   // let navigate = useNavigate();
   useEffect(() => {
     AOS.init();
@@ -71,7 +90,7 @@ function App() {
       {/* <--------Header Modal-------> */}
       {isModalOpen && <div id='modal' style={{ overflow: 'hidden', }} className='bg-slate-400 h-screen  w-screen absolute z-10 md:hidden'>
         <div className='p-4 relative h-15 '>
-          <RxCross1 onClick={closeModal} className='h-6 w-6 absolute top-5 right-10 ' />
+          <RxCross1 onClick={closeModal}  className='h-6 w-6 absolute top-5 right-10 ' />
         </div>
         <div className='mt-6 border-fuchsia-700 border-b-2  mx-2'>
           <a href='#skills' onClick={disableScroll} style={{ fontFamily: 'monospace', }} className='mt-[3rem] '>
@@ -136,7 +155,7 @@ function App() {
               <div className='App  md:w-[50%] text-right'>
                 <h1 className='text-center text-[24px] md:text-[20px]' style={{ fontFamily: 'cursive', color: 'white', margin: 'auto 0', fontWeight: 'bold' }}>
                   Hi I Am Shubhadeep Mahato A{' '}
-                  <div className='md:p-5 text-[20px] md:text-[20px] text-yellow-500 ' style={{ fontWeight: 'bold',fontFamily:'monospace' }}>
+                  <div className='md:p-5 text-[20px] md:text-[20px] text-yellow-500 ' style={{ fontWeight: 'bold', fontFamily: 'monospace' }}>
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
                       words={['Full Stack(MERN)', 'Mobile(REACT NATIVE)',]}
@@ -326,6 +345,20 @@ function App() {
         </section>
 
       </section>
+      {/* <------Contact Me---------> */}
+
+     {isAlertPrompted && <AlertCard handleContactAlert={handleContactAlert} address="Purulia West Bengal, INDIA, 723149"
+        mobile="9883516189"
+        email="shubhadeepmahato123@gmail.com" />}
+
+      <div
+        className="bg-transparent fixed bottom-3 cursor-pointer  right-2 items-center content-center text-center h-[5rem] w-[5rem]  shadow-md transition duration-300 ease-in-out rounded-full "
+      onClick={handleContactAlert}
+      >
+        <BsFillChatDotsFill className='m-auto text-center hover' color='fuchsia' size={40} />
+
+        <p style={{ fontFamily: 'monospace', color: 'green' }} className='opacity-0 font-extrabold text-lg hover:opacity-100  '>Contact</p>
+      </div>
 
     </div>
   )
