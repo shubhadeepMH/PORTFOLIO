@@ -134,12 +134,12 @@ function App() {
           <div className='w-[100vw] mt-8   '>
             <div className='md:flex md:justify-center w-full md:-space-x-10 items-center'>
               <div className='App  md:w-[50%] text-right'>
-                <h1 className='text-center text-md ' style={{ fontFamily: 'cursive', color: 'white', margin: 'auto 0', fontWeight: 'bold' }}>
+                <h1 className='text-center text-sm md:text-[20px]' style={{ fontFamily: 'cursive', color: 'white', margin: 'auto 0', fontWeight: 'bold' }}>
                   Hi I Am Shubhadeep Mahato A{' '}
-                  <span className='md:text-black text-[22px] text-yellow-500 ' style={{ fontWeight: 'bolder' }}>
+                  <div className='md:p-5 text-[13px] md:text-[20px] text-yellow-500 ' style={{ fontWeight: '' }}>
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
-                      words={['WEB', 'Full Stack/MERN', 'Mobile/React Native',]}
+                      words={['FULL STACK(MERN)', 'MOBILE APPLICATION(React Native)',]}
                       loop={true}
                       cursor
                       cursorStyle='_'
@@ -149,7 +149,7 @@ function App() {
 
                     />
 
-                  </span>
+                  </div>
                   <span>Developer</span>
                 </h1>
               </div>
@@ -171,12 +171,12 @@ function App() {
           <h2 style={{ fontFamily: 'monospace', fontWeight: 'bolder', fontSize: 30, color: 'white', letterSpacing: 2 }} className=' text-center  text-xl  md:relative top-2'>Technical Skills</h2>
         </div>
 
-        <div className=' mt-4 md:h-[35rem] bg-opacity-50 h-[35rem] md:flex justify-center items-center'>
+        <div className=' mt-4 md:h-[35rem] bg-opacity-50 h-[40rem] md:flex justify-center items-center'>
 
           {/* Left Side */}
-          <div className='md:w-[60%] h-[20rem] md:h-full ' >
+          <div className='md:w-[60%] h-[25rem] md:h-full ' >
 
-            <div className='w-[100%] h-[90%]  overflow-y-auto scrollbar-hide   '>
+            <div className='w-[100%] h-[95%]  overflow-y-auto scrollbar-hide   '>
               <div >
                 <h3 style={{ fontFamily: 'sans-serif' }} className='text-center font-extrabold text-black text-lg'>Programming Languages</h3>
                 <div className='flex space-x-10 items-center mt-2 font-serif justify-center'>
