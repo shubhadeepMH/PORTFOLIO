@@ -27,7 +27,7 @@ import reactNativeLogo from './assets/reactNativeLogo.png'
 import coding from "./lotties/coding.json";
 import gitLogo from './assets/gitLogo.png'
 import iPhone from './assets/iPhone.png'
-import macbook from './assets/iMac.png'
+import macbook from './assets/imac.png'
 import gitHubLogo from "./lotties/gitHubLogo.json";
 import video from './assets/videoWeb.mp4'
 import webApps from '../ProjectsData/WebProjects.json'
