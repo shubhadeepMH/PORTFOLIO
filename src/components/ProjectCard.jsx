@@ -10,7 +10,7 @@ function ProjectCard(props) {
       }, [])
     const { name, shortDescription, technologies, github, link } = props.data
     return (
-        <div className='bg-white h-[25rem]  text-center m-auto space-y-2 w-[22rem] md:h-[19rem] md:w-[18rem] px-1 shadow-lg mt-1 shadow-fuchsia-700 rounded-md'>
+        <div className='bg-white h-[25rem] ml-3 text-center m-auto space-y-2 w-[22rem] md:h-[19rem] md:w-[18rem] px-1 shadow-lg mt-1 shadow-fuchsia-700 rounded-md'>
             <div className='w-full'>
                 <h2 style={{ fontFamily: 'sans' }} className='text-center text-lg font-extrabold text-gray-900 border-b border-gray-600 rounded-md w-full'>{name}</h2>
             </div>

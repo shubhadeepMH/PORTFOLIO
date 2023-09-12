@@ -136,10 +136,10 @@ function App() {
               <div className='App  md:w-[50%] text-right'>
                 <h1 className='text-center text-[24px] md:text-[20px]' style={{ fontFamily: 'cursive', color: 'white', margin: 'auto 0', fontWeight: 'bold' }}>
                   Hi I Am Shubhadeep Mahato A{' '}
-                  <div className='md:p-5 text-[20px] md:text-[20px] text-yellow-500 ' style={{ fontWeight: 'bold' }}>
+                  <div className='md:p-5 text-[20px] md:text-[20px] text-yellow-500 ' style={{ fontWeight: 'bold',fontFamily:'monospace' }}>
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
-                      words={['FULL STACK(MERN)', 'MOBILE APP(React Native)',]}
+                      words={['Full Stack(MERN)', 'Mobile(REACT NATIVE)',]}
                       loop={true}
                       cursor
                       cursorStyle='_'
@@ -235,7 +235,7 @@ function App() {
 
       </section>
       {/* -------Specialization-------- */}
-      <section id='specialization' className='bg-[url("./assets/bg3.webp")] w-[full] md:h-[61rem] h-[92rem] pt-1'>
+      <section id='specialization' className='bg-[url("./assets/bg3.webp")] mt-2 w-[full] md:h-[61rem] h-[92rem] pt-1'>
         <div className='bg-fuchsia-700 bg-opacity-20 h-[102%]'>
           <h3 style={{ fontFamily: 'sans-serif', }} className='text-center text-white font-extrabold text-[2rem] border-gray-400 border-b mx-3 rounded-[100px]'>Specializations</h3>
 
