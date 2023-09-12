@@ -21,7 +21,7 @@ import html from './assets/htmlLogo.png'
 import tailwindLogo from './assets/tailwind.png'
 import nodeLogo from './assets/nodeLogo.png'
 import expressLogo from './assets/expressjs.webp'
-import firebaseLogo from './assets/firebase.png'
+import firebaseLogo from './assets/fireBase.png'
 import mongoLogo from './assets/mongoDB.png'
 import reactNativeLogo from './assets/reactNativeLogo.png'
 import coding from "./lotties/coding.json";
