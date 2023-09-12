@@ -73,24 +73,24 @@ function App() {
         <div className='p-4 relative h-15 '>
           <RxCross1 onClick={closeModal} className='h-6 w-6 absolute top-5 right-10 ' />
         </div>
-        <div className=''>
-          <a href='#skills' onClick={disableScroll} style={{ fontFamily: 'sans' }} className=' '>
+        <div className='mt-6 border-fuchsia-700 border-b-2  mx-2'>
+          <a href='#skills' onClick={disableScroll} style={{ fontFamily: 'monospace', }} className='mt-[3rem] '>
             <p className='cursor-pointer font-bold text-white text-center'>Skills</p>
           </a>
         </div>
 
-        <div className=''>
-          <a href='#specialization' onClick={disableScroll} style={{ fontFamily: 'sans' }} className=' '>
+        <div className='mt-6 border-fuchsia-700 border-b-2  mx-2'>
+          <a href='#specialization' onClick={disableScroll} style={{ fontFamily: 'monospace' }} className='mt-[3rem]'>
             <p className='cursor-pointer  font-bold text-white text-center'>Specialization</p>
           </a>
         </div>
-        <div className=''>
-          <a href='#education' onClick={disableScroll} style={{ fontFamily: 'sans' }} className=' '>
+        <div className='mt-6 border-fuchsia-700 border-b-2  mx-2'>
+          <a href='#education' onClick={disableScroll} style={{ fontFamily: 'monospace' }} className='mt-[3rem]'>
             <p className='cursor-pointer font-bold text-white text-center'>Education</p>
           </a>
         </div>
-        <div className=''>
-          <a href='#experiance' onClick={disableScroll} style={{ fontFamily: 'sans' }} className=' '>
+        <div className='mt-6 border-fuchsia-700 border-b-2 mx-2 '>
+          <a href='#experiance' onClick={disableScroll} style={{ fontFamily: 'monospace' }} className='mt-[3rem] '>
             <p className='cursor-pointer font-bold text-white text-center'>Experiance</p>
           </a>
         </div>
