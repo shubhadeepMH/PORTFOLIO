@@ -31,6 +31,7 @@ import iPhone from './assets/iPhone.png'
 import macbook from './assets/Imac.png'
 import gitHubLogo from "./lotties/gitHubLogo.json";
 import video from './assets/videoWeb.mp4'
+import AppDemo from './assets/AppDemo.mp4'
 import webApps from '../ProjectsData/WebProjects.json'
 import mobileApps from "../ProjectsData/MobileAppProjects.json"
 import routeData from '../ProjectsData/NavaigateRoutes.json'
@@ -61,7 +62,7 @@ function App() {
     },
     // Add more addresses as needed
   ];
-  let handleContactAlert=()=>{
+  let handleContactAlert = () => {
     setIsAlertPrompted(!isAlertPrompted)
   }
   // let navigate = useNavigate();
@@ -90,7 +91,7 @@ function App() {
       {/* <--------Header Modal-------> */}
       {isModalOpen && <div id='modal' style={{ overflow: 'hidden', }} className='bg-slate-400 h-screen  w-screen absolute z-10 md:hidden'>
         <div className='p-4 relative h-15 '>
-          <RxCross1 onClick={closeModal}  className='h-6 w-6 absolute top-5 right-10 ' />
+          <RxCross1 onClick={closeModal} className='h-6 w-6 absolute top-5 right-10 ' />
         </div>
         <div className='mt-6 border-fuchsia-700 border-b-2  mx-2'>
           <a href='#skills' onClick={disableScroll} style={{ fontFamily: 'monospace', }} className='mt-[3rem] '>
@@ -261,8 +262,11 @@ function App() {
           {/* Mobile Specialization */}
           <div className='md:flex items-center  border-fuchsia-700 border-b justify-between p-3  '>
             {/* Image */}
-            <div className='md:w-[50%]  md:border-r border-white'>
-              <img className='md:h-[30rem] md:w-[19rem] h-[23rem] mt-3 w-[70%] m-auto text-center' src={iPhone} alt="" />
+            <div className='md:w-[50%] relative  md:border-r border-white'>
+              <img className='md:h-[26rem] md:w-[24rem] h-[21rem] mt-3 w-[82%] m-auto text-center' src={iPhone} alt="" />
+              <video style={{ borderRadius: 20, }} width="600" height="720" className='absolute  h-[18rem] md:h-[24rem] md:w-[100rem] w-[30rem] top-5 rounded-lg bottom-11 left-0' loop autoPlay  >
+                <source src={AppDemo} type="video/mp4" />
+              </video>
             </div>
             {/* Text */}
             <div className='md:w-[50%]' data-aos="slide-left" data-aos-offset={170} data-aos-duration={550} >
@@ -347,13 +351,13 @@ function App() {
       </section>
       {/* <------Contact Me---------> */}
 
-     {isAlertPrompted && <AlertCard handleContactAlert={handleContactAlert} address="Purulia West Bengal, INDIA, 723149"
+      {isAlertPrompted && <AlertCard handleContactAlert={handleContactAlert} address="Purulia West Bengal, INDIA, 723149"
         mobile="9883516189"
         email="shubhadeepmahato123@gmail.com" />}
 
       <div
         className="bg-transparent fixed bottom-3 cursor-pointer  right-2 items-center content-center text-center h-[5rem] w-[5rem]  shadow-md transition duration-300 ease-in-out rounded-full "
-      onClick={handleContactAlert}
+        onClick={handleContactAlert}
       >
         <BsFillChatDotsFill className='m-auto text-center hover' color='fuchsia' size={40} />
 
